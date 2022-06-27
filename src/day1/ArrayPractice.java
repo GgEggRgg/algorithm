@@ -1,3 +1,5 @@
+package day1;
+
 public class ArrayPractice {
 
     static int func2(int arr[], int len){
