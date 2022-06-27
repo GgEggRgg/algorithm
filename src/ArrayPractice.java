@@ -5,18 +5,13 @@ public class ArrayPractice {
         for (int i : arr) {
             temp[i]++;
         }
+
+        if(temp[50] > 1){
+            return 1;
+        }
         for(int i = 0; i < temp.length; i++) {
-            if(i > 50 && temp[i] != 0){
-                if(temp[50-(i-50)] != 0)
-                    return 1;
-            }
-            else if(i < 50 && temp[i] != 0) {
-                if(temp[50+(50-i)] != 0)
-                    return 1;
-            }
-            else {
-                if(temp[50] > 1)
-                    return 1;
+            if(i != 50 && temp[i] != 0 && temp[100-i] != 0){
+                return 1;
             }
         }
         return 0;
