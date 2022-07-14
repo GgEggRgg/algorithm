@@ -1,5 +1,6 @@
 package day3;
 
+//프로그래머스 > 2018 KAKAO BLIND RECRUITMENT > [1차] 비밀지도(lv.1)
 public class SecretMap {
 
     public static String[] solution(int n, int[] arr1, int[] arr2) {
