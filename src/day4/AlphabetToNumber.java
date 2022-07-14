@@ -1,5 +1,6 @@
 package day4;
 
+//프로그래머스 > 2021 카카오 채용연계형 인턴십 > 숫자 문자열과 영단어(lv.1)
 public class AlphabetToNumber {
 
     public static int solution(String s) {
