@@ -1,7 +1,6 @@
 package day4;
 
-import java.util.Arrays;
-
+//프로그래머스 > 2022 KAKAO BLIND RECRUITMENT > 주차 요금 계산(lv.2)
 public class ParkingFee {
     public static int[] solution(int[] fees, String[] records){
         int defaultTime = fees[0];
