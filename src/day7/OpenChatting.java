@@ -41,11 +41,16 @@ public class OpenChatting {
     }
 
     public static void main(String[] args) {
-        String[] record = {"Enter uid1234 Muzi", "Enter uid4567 Prodo",
-                "Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"};
-        String[] answer = solution(record);
+        String[] answer = ex1();
         for (String s : answer) {
             System.out.println(s);
         }
+    }
+
+    public static String[] ex1(){
+        String[] record = {"Enter uid1234 Muzi", "Enter uid4567 Prodo",
+                "Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"};
+        String[] answer = solution(record);
+        return answer;
     }
 }
