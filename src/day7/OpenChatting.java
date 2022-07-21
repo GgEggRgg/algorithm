@@ -2,7 +2,7 @@ package day7;
 
 import java.util.HashMap;
 
-//프로그래머스 > 2019 KAKAO BLIND RECRUITMENT > 오픈채팅방
+//프로그래머스 > 2019 KAKAO BLIND RECRUITMENT > 오픈채팅방(Lv.2)
 public class OpenChatting {
 
     public static String[] solution(String[] record){
