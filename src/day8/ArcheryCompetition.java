@@ -1,6 +1,6 @@
 package day8;
 
-//프로그래머스 > 2022 KAKAO BLIND RECRUITMENT > 양궁대회
+//프로그래머스 > 2022 KAKAO BLIND RECRUITMENT > 양궁대회(Lv.2)
 public class ArcheryCompetition {
     static int[] answer = {-1};
     static int[] ryan;
