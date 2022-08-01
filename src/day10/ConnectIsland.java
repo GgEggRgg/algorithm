@@ -7,9 +7,7 @@ import java.util.Comparator;
 public class ConnectIsland {
 
     public static int solution(int n, int[][] costs){
-        //costs[x][0] : a 섬
-        //costs[x][1] : b 섬
-        //costs[x][2] : 다리 비용
+        //costs[x][0] : a섬, costs[x][1] : b 섬, costs[x][2] : 다리 비용
         int answer = 0;
         boolean[] isIn = new boolean[n];
 
